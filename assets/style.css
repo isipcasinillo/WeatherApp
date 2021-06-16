@@ -1,3 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(53, 53, 53);
+  background-color: rgb(78, 78, 78);
+}
+
+.__jc {
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  font-size: 75px;
+  color: white;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  background-color: lightblue;
+}
+
+.WeatherDashboard {
+  padding-right: 800px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.leftColumn {
+  height: 200px;
+  width: 25%;
+  background-color: rgb(54, 87, 105);
+}
+
+#search-header {
+  color: white;
+  font-size: 40px;
+}
+
+.leftColumn input {
+  width: 400px;
+  height: 50px;
+}
+
+.leftColumn button {
+  display: block;
+  width: 400px;
+  height: 40px;
+}
+
+.rightColumn {
+  background-color: rgb(61, 85, 95);
+  width: 75%;
+  height: 300px;
+}
+
+.rightColumn h1 span {
+  color: white;
+  font-size: 50px;
+}
+
+.rightColumn div {
+  color: white;
+  font-size: 30px;
+}
+
+.forecast div {
+  font-size: 30px;
+  color: white;
+}
+
+.forecast {
+  float: right;
+  width: 1455px;
+  justify-content: space-evenly;
+  display: flex;
+}
+.cardcast {
+  padding: 10px;
+  margin-right: 20px;
+  background-color: rgb(44, 44, 102);
+  height: 200px;
+  width: 250px;
+}
+#historylist li {
+  list-style-type: none;
+  background-color: rgb(90, 90, 90);
+  height: 25px;
+  width: 400px;
 }
