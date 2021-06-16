@@ -8,7 +8,63 @@
     <title>Weather App Api</title>
   </head>
   <body>
-    <h1>This is an initial test for the servers</h1>
+    <header class="header __jc">Weather Dashboard</header>
+
+    <!-- v This is the left side of the web app v-->
+    <main class="main">
+      <div class="leftColumn">
+        <div id="search-header">Search for a City:</div>
+        <input
+          type="text"
+          name="citysearch"
+          id="citysearch"
+          placeholder="Los Angeles.."
+        />
+        <button id="search-button">Search</button>
+      </div>
+
+      <div class="rightColumn">
+        <h1><span class="fdate"></span></h1>
+        <div>Temp: <span class="ftemp"></span></div>
+        <div>Wind: <span class="fwind"></span></div>
+        <div>Humidity: <span class="fhum"></span></div>
+        <div>UV Index: <span class="currentUv"></span></div>
+      </div>
+    </main>
+    <div class="forecast">
+      <div class="cardcast">
+        <div class="fdate"></div>
+        <div>Temp: <span class="ftemp"></span></div>
+        <div>Wind: <span class="fwind"></span></div>
+        <div>Humidity: <span class="fhum"></span></div>
+      </div>
+      <div class="cardcast">
+        <div class="fdate"></div>
+        <div>Temp: <span class="ftemp"></span></div>
+        <div>Wind: <span class="fwind"></span></div>
+        <div>Humidity: <span class="fhum"></span></div>
+      </div>
+      <div class="cardcast">
+        <div class="fdate"></div>
+        <div>Temp: <span class="ftemp"></span></div>
+        <div>Wind: <span class="fwind"></span></div>
+        <div>Humidity: <span class="fhum"></span></div>
+      </div>
+      <div class="cardcast">
+        <div class="fdate"></div>
+        <div>Temp: <span class="ftemp"></span></div>
+        <div>Wind: <span class="fwind"></span></div>
+        <div>Humidity: <span class="fhum"></span></div>
+      </div>
+      <div class="cardcast">
+        <div class="fdate"></div>
+        <div>Temp: <span class="ftemp"></span></div>
+        <div>Wind: <span class="fwind"></span></div>
+        <div>Humidity: <span class="fhum"></span></div>
+      </div>
+    </div>
+    <div id="historylist"></div>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
   <script src="assets/script.js"></script>
 </html>
